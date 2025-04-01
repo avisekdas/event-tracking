@@ -25,3 +25,8 @@ mkdir all_molecular_event_framewise
 ```
 python3 identify_molecular_event_v14.py
 ```
+After all the event data are calculated, cluster tracking can be performed by running '**backtrack_of_cluster_from_event_data_v01.py**'. Any cluster can be tracked in the backward direction. Change the input parameters in lines 128-131 to include the information on the specific cluster that needs to be tracked. After line 152 onwards, the code is for plotting and can be changed according to the user's preference.
+
+```
+python3 backtrack_of_cluster_from_event_data_v01.py
+```
