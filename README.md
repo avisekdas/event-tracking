@@ -3,7 +3,7 @@ Input files for this protocol are clustering information. Here, each building bl
 
 The following protocol should be followed after having the cluster files for all the time frames.
 
-1. Change all the input parameters in the json file `**input_parameters_for_event.json**'
+1. Change all the input parameters in the json file '**input_parameters_for_event.json**'
 
 2. The number of clusters in each frame needs to be calculated. For that run
 ```bash 
