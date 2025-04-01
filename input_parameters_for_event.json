@@ -1,0 +1,6 @@
+{
+  "number of cluster files" : "number_of_cluster_per_frame.txt",
+  "segment names json filename" : "/home/argha/my_work/projects/project_pep_assembly/analysis/raw-traj/iii-600-mol-200A-box/set2/segment_names_iii_200A-600-mol_set2.json",
+  "number of frames" : 500,
+  "number of molecules in the system" : 600
+}
