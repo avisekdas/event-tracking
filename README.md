@@ -1,5 +1,5 @@
 # event-tracking
-Input files for this protocol are clustering information. Here, each building block must be distinguishable. Clustering should be done in each time frame, and clustering files should be stored for each frame. Each cluster file has indices or identities of the building blocks.
+Input files for this protocol are clustering information. Here, each building block must be distinguishable. Clustering should be done each time frame, and clustering files should be stored for each frame. Each cluster file has indices or identities of the building blocks.
 
 The following protocol should be followed after having the cluster files for all the time frames.
 
@@ -17,7 +17,7 @@ mkdir cluster_info_for_molecular_event
 ```
 python3 check_each_mol_belong_which_cluster_size_framewise_v01.py
 ```
-5. Now to store the final event information, create a directory.
+5. Now, to store the final event information, create a directory.
 ```
 mkdir all_molecular_event_framewise
 ```
@@ -25,7 +25,7 @@ mkdir all_molecular_event_framewise
 ```
 python3 identify_molecular_event_v14.py
 ```
-After all the event data are calculated, cluster tracking can be performed by running '**backtrack_of_cluster_from_event_data_v01.py**'. Any cluster can be tracked in the backward direction. Change the input parameters in lines 128-131 to include the information on the specific cluster that needs to be tracked. After line 152 onwards, the code is for plotting and can be changed according to the user's preference.
+After all the event data is calculated, cluster tracking can be performed by running '**backtrack_of_cluster_from_event_data_v01.py**'. Any cluster can be tracked in the backward direction. Change the input parameters in lines 128-131 to include the information on the specific cluster that needs to be tracked. After line 152 onwards, the code is for plotting and can be changed according to the user's preference.
 
 ```
 python3 backtrack_of_cluster_from_event_data_v01.py
@@ -33,3 +33,9 @@ python3 backtrack_of_cluster_from_event_data_v01.py
 
 
 For testing the protocol, a test system is available at https://drive.google.com/drive/folders/1JLFCbl1ywHXuRG_pZnCAn8R1QdFKHXbM?usp=sharing
+
+For more details, please read the following article-
+Understanding pathway complexity in assembly mechanisms of hydrophobic peptides in water: Insights from atomistic simulations via Event Tracking
+Argha Chakraborty, Rumela Adhikary, Sangeeta Das, and Avisek Das, The Journal of Chemical Physics, 162, 194712 (2025) 
+doi: 10.1063/5.0261115
+
