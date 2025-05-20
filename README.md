@@ -35,7 +35,7 @@ python3 backtrack_of_cluster_from_event_data_v01.py
 For testing the protocol, a test system is available at https://drive.google.com/drive/folders/1JLFCbl1ywHXuRG_pZnCAn8R1QdFKHXbM?usp=sharing
 
 For more details, please read the following article-
-``Understanding pathway complexity in assembly mechanisms of hydrophobic peptides in water: Insights from atomistic simulations via Event Tracking''
+''Understanding pathway complexity in assembly mechanisms of hydrophobic peptides in water: Insights from atomistic simulations via Event Tracking''
 Argha Chakraborty, Rumela Adhikary, Sangeeta Das, and Avisek Das, The Journal of Chemical Physics, 162, 194712 (2025) 
 doi: 10.1063/5.0261115
 
